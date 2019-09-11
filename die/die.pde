@@ -21,9 +21,9 @@ void draw() {}
     int die1Red = int(random(1, 255));
     int die1Green = int(random(1, 255));
     textSize(50);
-    fill(die1Red,die1Green,0);
+    fill(die1Red,die1Green,100);
     text(Chad[die1], 375, height/2);
-    stroke(die1Red,die1Green,0);
+    stroke(die1Red,die1Green,100);
     noFill();
     rect(350, 190, 80, 80, 10);
     
@@ -33,9 +33,9 @@ void draw() {}
     int die2Red = int(random(1, 255));
     int die2Green = int(random(1, 255));
     textSize(50);
-    fill(die2Red,die2Green,0);
+    fill(die2Red,die2Green,100);
     text(Brad[die2], 125, height/2);
-    stroke(die2Red,die2Green,0);
+    stroke(die2Red,die2Green,100);
     noFill();
     rect(100, 190, 80, 80, 10);
   }
